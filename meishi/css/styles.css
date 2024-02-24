@@ -1,0 +1,62 @@
+
+html {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+    display: flex;
+    height: 500px;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+}
+
+.roboto-black {
+  font-weight: 900;
+}
+
+
+.wrapper {
+    background-color: rgb(204, 255, 204);
+    padding: 40px;
+    box-sizing: border-box;
+    width: 600px;
+}
+
+.header {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    height: 150px;
+    align-items: center;
+}
+
+.designation {
+    font-size: 20px;
+}
+.name {
+    font-size: 50px;
+}
+
+.company {
+    font-size: 25px;
+}
+
+.bottom > div {
+    padding: 1px;
+}
+
+.address {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+}
+.pincode, .email-heading {
+    margin-right: 10px;
+}
+
+.address, .primary-number, .alternate-number, .fax, .email {
+    font-size: 17px;
+}
