@@ -1,0 +1,170 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 10px;
+}
+
+:root {
+    --background-color: #fefaf0;
+    --color-brown: #841a00;
+    --color-light-blue: #4C849B;
+    --color-dark-brown: #393737;
+    --color-dark-green: #4c849b;
+    --color-date: #74876c;
+    --footer-background: #769ebb;
+}
+
+body {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    background-color: var(--background-color);
+}
+
+.ubuntu-regular {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.wrapper {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    width: 900px;
+    background-color: white;
+}
+
+.main-heading {
+    width: 100%;
+    font-size: 4rem;
+    font-weight: bold;
+    padding: 2rem 2rem 0;
+}
+
+.winter-svg {
+    margin-top: -5rem;
+    margin-left: 1rem;
+}
+
+text.happy {
+    fill: var(--color-dark-green);
+    border-radius: 50%;
+}
+text.winter {
+    fill: var(--color-dark-brown);
+}
+
+.christmas {
+    width: 100%;
+    display: flex;
+    flex-flow: column wrap;
+    font-size: 6rem;
+    text-align: center;
+    color: var(--color-dark-green);
+    padding: 0 2rem;
+    font-weight: bold;
+}
+
+.datetime {
+    display: flex;
+    flex-flow: row nowrap;
+    width: 100%;
+    padding: 5rem 2rem 0;
+    justify-content: center;
+    color: var(--color-date);
+    font-weight: bold;
+}
+
+.datetime .month .digit,
+.datetime .day .digit {
+    font-size: 6rem;
+}
+
+.datetime .month .character,
+.datetime .day .character {
+    font-size: 3.5rem;
+    padding: .5rem;
+}
+
+.datetime .time {
+    font-size: 4.5rem;
+    padding-top: 1.5rem;
+}
+
+.place {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    font-size: 3rem;
+    color: var(--color-date);
+    font-weight: bold;
+}
+
+.details {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    font-size: 1.8rem;
+    width: 265px;
+    font-weight: 600;
+    margin-top: 6rem;
+}
+
+.ja-place, .cost, .target {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    width: 100%;
+}
+
+.ja-pl-heading, .ja-target-heading {
+    letter-spacing: 2rem;
+    margin-right: 5rem;
+}
+
+.cost, .target {
+    margin-top: 1rem;
+}
+
+.ja-cost-heading {
+    margin-right: 7rem;
+}
+
+footer.contact {
+    background-color: var(--footer-background);
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+    margin-top: 6rem;
+    padding: 4rem;
+}
+
+.phone-header, .email, .homepage {
+    font-size: 1.5rem;
+}
+.phone-number {
+    font-size: 2rem;
+}
+
+.homepage, .phone-number {
+    padding-top: .3rem;
+}
+.button {
+    width: 60px;
+    height: 60px;
+}
+.button button {
+    padding: .4rem;
+    width: 100%;
+}
