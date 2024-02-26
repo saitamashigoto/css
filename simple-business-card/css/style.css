@@ -1,0 +1,59 @@
+* {
+    box-sizing: border-box;
+}
+
+
+html {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #545454;
+}
+
+body {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+}
+
+.wrapper {
+    width: 500px;
+    height: 300px;
+    padding: 1rem;
+    position: relative;
+    background-color: #ffde59;
+}
+
+.wrapper:after {
+    content: '';
+    background-image: url('../images/guitar.png');
+    background-size: 3rem 6rem;
+    position: absolute;
+    top: 200px;
+    width: calc(100% - 2rem);
+    height: calc(100px - 1rem);
+    background-repeat: round;
+}
+
+
+.workplace-name {
+    font-weight: 600;
+    font-size: 18px;
+    padding: 0 1rem;
+}
+
+.main-heading {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+}
+
+.main-heading .designation {
+    font-size: 18px;
+    padding: 1.7rem 1.4rem;
+}
+
+.main-heading .last-name, .main-heading .first-name {
+    font-size: 30px;
+    padding: 1rem 0.5rem;
+}
