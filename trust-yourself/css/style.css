@@ -1,0 +1,123 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: "Alegreya", serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 16px;
+}
+
+.container {
+    width: 80%;
+    height: 900px;
+    background-color: #FAF9F6;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 100%;
+    margin: 1rem auto;
+    background-image: radial-gradient(circle at center, #F5F5DC 10%, #F5F5DC 45%, transparent 0%);
+    position: relative;
+    overflow: hidden;
+}
+
+.container::after {
+    content: '';
+    position: absolute;
+    top: -28px;
+    right: -132px;
+    width: 400px;
+    height: 200px;
+    background-color: #f3be72;
+    transform: rotate(45deg);
+    border-radius: 0 0 400px 400px / 0 0 400px 400px;
+}
+
+.container::before {
+    content: '';
+    position: absolute;
+    bottom: -28px;
+    left: -132px;
+    width: 400px;
+    height: 200px;
+    background-color: #f3be72;
+    transform: rotate(45deg);
+    border-radius: 400px 400px 0 0 / 400px 400px 0 0;
+}
+
+header {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+h2 {
+    color: #6a6d4f;
+    margin: 0;
+    font-size: 70px;
+}
+
+p {
+    color: #9d7f19;
+    font-size: 35px;
+    margin: 0 0 1rem;
+}
+
+.star-kyupeen {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    background-color: #f2c820;
+    animation: anim-star-kyupeen 1s infinite linear;
+}
+.star-kyupeen__path:before,
+.star-kyupeen__path:after {
+    background-color: #FAF9F6;
+    position: absolute;
+    content: '';
+    display: block;
+    height: 50px;
+    width: 50px;
+    box-sizing: border-box;
+}
+.star-kyupeen__path.is-left:before {
+    top: 50px;
+    left: 0px;
+    border-right: 1px solid #f2c820;
+    border-top: 1px solid #f2c820;
+    border-top-right-radius: 70%;
+}
+.star-kyupeen__path.is-left:after {
+    top: 0px;
+    left: 0px;
+    border-bottom: 1px solid #f2c820;
+    border-right: 1px solid #f2c820;
+    border-bottom-right-radius: 70%;
+}
+.star-kyupeen__path.is-right:before {
+    top: 50px;
+    left: 50px;
+    border-top: 1px solid #f2c820;
+    border-left: 1px solid #f2c820;
+    border-top-left-radius: 70%;
+}
+.star-kyupeen__path.is-right:after {
+    top: 0px;
+    left: 50px;
+    border-left: 1px solid #f2c820;
+    border-bottom: 1px solid #f2c820;
+    border-bottom-left-radius: 70%;
+}
+
+.star-kyupeen.top-left {
+    top: 50px;
+    left: 50px;
+}
+
+.star-kyupeen.bottom-right {
+    bottom: 50px;
+    right: 50px;
+}
