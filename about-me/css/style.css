@@ -7,6 +7,7 @@ html {
     font-weight: 400;
     font-style: normal;
     font-size: 16px;
+    color: #96755d;
 }
 
 body {
@@ -159,5 +160,120 @@ body {
     height: 28px;
     width: 148px;
     border-radius: .8rem;
+    border: 1px solid #96755d;
+}
+
+.left, .right {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    align-items: center;
+    font-size: 20px;
+}
+
+.left {
+    grid-template-rows: 1fr 3fr 3fr;
+}
+.right {
+    grid-template-rows: 1fr 1fr;
+}
+
+.favorite-colors {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr;
+    gap: .5rem;
+}
+
+.fc-heading {
+    text-align: center;
+}
+
+.fc-circles {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    align-items: center;
+}
+
+.fc-circle {
+    width: 65px;
+    height: 65px;
+    border-radius: 100%;
+    border: 1px solid #96755d;
+    background-color: transparent;
+}
+
+.paper-pin, .pp-back  {
+    width: 170px;
+    height: 200px;
+    background-color: #efcd9b;
+    border-radius: .5rem;
+    border: 1px solid #96755d;
+}
+
+.paper-pin {
+    transform: rotate(12deg);
+}
+
+.pp-back {
+    transform: rotate(-8deg);
+    position:absolute;
+    top:0;
+    left:0;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.pp-front {
+    position: absolute;
+    top: 9px;
+    width: 152px;
+    height: 140px;
+    background-color: #f6e8dd;
+    border-radius: .5rem;
+    border: 1px solid #96755d;
+}
+
+.pp-inner {
+    position: absolute;
+    background-image: url('../images/pin.png');
+    width: 40px;
+    height: 40px;
+    top: -33px;
+    left: 65px;
+    transform: rotate(-25deg);
+}
+
+
+.favorite-quote {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr;
+    width: 280px;
+    height: 180px;
+    border-radius: 1rem;
+    border: 1px solid #96755d;
+    padding: 1rem;
+    grid-gap: .5rem;
+    background-color: #efcd9b;
+}
+
+.fq-circles {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    grid-template-rows: 1fr;
+    gap: .5rem;
+    align-items: center;
+}
+
+.fq-circle {
+    width: 16px;
+    height: 16px;
+    border-radius: 100%;
+    background-color: white;
     border: 1px solid #96755d;
 }
