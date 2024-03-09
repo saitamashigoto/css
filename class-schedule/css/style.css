@@ -1,0 +1,258 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: "Kiwi Maru", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+}
+
+body {
+    display: grid;
+}
+
+.wrapper {
+    justify-self: center;
+    width: 70vw;
+    height: 120vh;
+    background-color: #fffdf0;
+    display: grid;
+}
+
+.container {
+    align-self: center;
+    width: 100%;
+    height: 110vh;
+    background-color: transparent;
+    background-image: linear-gradient(to right, #E8E8E8 7%, transparent 7%),
+        linear-gradient(to bottom, #E8E8E8 7%, transparent 7%);
+    background-size: 4.5rem 4.5rem;
+    background-position: center;
+    padding: 2rem;
+}
+
+header {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    align-items: center;
+    column-gap: 3rem;
+}
+
+h1 {
+    font-family: "Caveat Brush", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 5rem;
+    color: #6d6768;
+    text-align: center;
+    margin: 0;
+    position: relative;
+    z-index: 2;
+}
+
+h1::after {
+    background-color: #ffebe3;
+    content: '';
+    position: absolute;
+    top: 57%;
+    left: 0;
+    width: 100%;
+    height: 45%;
+    border-radius: 1.5rem;
+    z-index: -1;
+}
+
+.supplies,
+.pencil {
+    background-size: 100% 100%;
+    width: 80px;
+    height: 90px;
+    position: relative;
+}
+
+.supplies {
+    background-image: url('../images/supplies.png');
+    justify-self: right;
+}
+
+.pencil {
+    background-image: url('../images/pencil.png');
+    justify-self: left;
+}
+
+.l-star,
+.r-star,
+.t-star,
+.b-star {
+    background-image: url('../images/single-star.png');
+    height: 16px;
+    width: 16px;
+    background-size: 100% 100%;
+    position: absolute;
+}
+
+.l-star {
+    bottom: 20%;
+    left: -22%;
+}
+
+.r-star {
+    top: -12%;
+    right: 10%;
+}
+
+.t-star {
+    top: 0;
+    right: 40%;
+}
+
+.b-star {
+    bottom: 10%;
+    right: 45%;
+}
+
+.table-wrapper {
+    position: relative;
+    width: 50vw;
+    margin: 3rem auto;
+}
+
+.top-left, .top-right, .bottom-left {
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    background-image: url('../images/plaster.png');
+    background-size: 100% 100%;
+}
+
+.top-left {
+    top: -35px;
+    left: -35px;
+}
+
+.top-right {
+    top: -35px;
+    right: -35px;
+    transform: rotate(90deg);
+}
+
+.bottom-right {
+    position: absolute;
+    background-color: transparent;
+    background-image: url('../images/girl.png');
+    width: 300px;
+    height: 300px;
+    background-size: 100% 100%;
+    bottom: -14%;
+    right: -20%;
+}
+
+.bottom-left {
+    bottom: -35px;
+    left: -35px;
+    transform: rotate(-90deg);
+}
+
+table {
+    font-size: 1.5rem;
+    color: #3e393a;
+    font-weight: bold;
+    border-collapse: collapse;
+    width:100%;
+    height: 100%;
+}
+
+table,
+tr,
+td {
+    border: 2px solid #5d3d3d;
+}
+
+tr {
+    height: 4.5rem;
+}
+
+tr:first-child {
+    background-color: #ffbbc1;
+}
+
+tr:nth-child(4) {
+    background-color: #e1d8ff;
+}
+
+tr:last-child {
+    background-color: #ffebe3;
+}
+
+td {
+    padding: 0 1.5rem;
+    text-align: center;
+    display: block;
+    height: 100%;
+}
+
+tr {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+tr:last-child {
+    border-bottom: none;
+}
+
+td.term {
+    display: flex;
+    border: none;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 1rem 1.5rem 1rem 1.5rem;
+    width: 35%;
+}
+
+td.value {
+    width: 65%;
+    border-top: none;
+    border-bottom: none;
+    border-right: none;
+}
+
+span {
+    display: inline-block;
+}
+
+span:not(:last-child) {
+    margin-right: 1rem;
+}
+
+.face,
+.star,
+.heart,
+.crown {
+    width: 40px;
+    height: 40px;
+    background-size: 100% 100%;
+}
+
+.face {
+    background-image: url('../images/happy-face.png');
+}
+
+.star {
+    background-image: url('../images/star.png');
+}
+
+.heart {
+    background-image: url('../images/heart.png');
+}
+
+.crown {
+    background-image: url('../images/crown.png');
+}
