@@ -10,7 +10,7 @@ In addition, below are the icons used in these repository. I don't own any icons
 4. Fonts used in this repository should not be used for commercial purpose, please consult their respective authors.
 
 
-[Pin](https://icons8.com/icon/45074/pin) icon by [Icons8](https://icons8.com)
+5. [Pin](https://icons8.com/icon/45074/pin) icon by [Icons8](https://icons8.com)
 
 [Pencil icons created by Freepik - Flaticon](https://www.flaticon.com/free-icons/pencil "pencil icons")
 
