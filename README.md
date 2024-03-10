@@ -12,7 +12,7 @@ In addition, below are the icons used in these repository. I don't own any icons
 
 5. [Pin](https://icons8.com/icon/45074/pin) icon by [Icons8](https://icons8.com)
 
-[Pencil icons created by Freepik - Flaticon](https://www.flaticon.com/free-icons/pencil "pencil icons")
+6. [Pencil icons created by Freepik - Flaticon](https://www.flaticon.com/free-icons/pencil "pencil icons")
 
 [Ruler icons created by juicy\_fish - Flaticon](https://www.flaticon.com/free-icons/ruler "ruler icons")
 
