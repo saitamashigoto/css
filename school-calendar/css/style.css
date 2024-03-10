@@ -1,0 +1,250 @@
+* {
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Adigiana-Toybox-Regular';
+    src: url('../fonts/Adigiana-Toybox-Regular.ttf.woff') format('woff'),
+        url('../fonts/Adigiana-Toybox-Regular.ttf.svg#Adigiana-Toybox-Regular') format('svg'),
+        url('../fonts/Adigiana-Toybox-Regular.ttf.eot'),
+        url('../fonts/Adigiana-Toybox-Regular.ttf.eot?#iefix') format('embedded-opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html {
+    font-family: 'Adigiana-Toybox-Regular';
+    font-size: 16px;
+    font-weight: bold;
+}
+
+
+body {
+    max-width: 100vw;
+    display: grid;
+}
+
+.wrapper {
+    width: 80%;
+    justify-self: center;
+    align-self: center;
+    background-color: #e7e7e7;
+    padding: 3rem 2rem 10rem;
+    z-index: 0;
+    position: relative;
+    overflow: hidden;
+}
+
+.circles {
+    display: grid;
+    column-gap: auto;
+    grid-template-columns: repeat(5, auto);
+    justify-items: center;
+}
+
+.circle {
+    width: 60px;
+    height: 60px;
+    background-color: #727272;
+    border-radius: 100%;
+}
+
+header {
+    margin-top: 6rem;
+    position: relative;
+}
+
+.school,
+.light-bulb {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    background-size: 100% 100%;
+}
+
+.school {
+    top: 0;
+    left: 5%;
+    background-image: url('../images/school.png');
+    transform: rotate(-10deg);
+}
+
+.light-bulb {
+    top: 0;
+    right: 3%;
+    background-image: url('../images/light-bulb.png');
+    transform: rotate(20deg);
+}
+
+.heading {
+    position: relative;
+    z-index: 0;
+}
+
+.heading>div {
+    font-size: 6rem;
+    line-height: .8;
+    letter-spacing: -.5rem;
+    text-align: center;
+}
+
+.heading>div:first-child {
+    color: #f13b20;
+    -webkit-text-stroke: 6px #545454;
+}
+
+.heading>div:nth-child(2) {
+    color: #fabb17;
+    -webkit-text-stroke: 6px black;
+}
+
+
+.wrapper::after {
+    content: '';
+    position: absolute;
+    top: 0%;
+    right: 10%;
+    z-index: -1;
+    width: 512px;
+    height: 512px;
+    background-image: url('../images/cloud.png');
+    background-size: 100% 100%;
+}
+
+main {
+    display: grid;
+    margin-top: 6rem;
+    row-gap: 6rem;
+}
+
+.row {
+    justify-self: center;
+    align-self: center;
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    column-gap: 2rem;
+}
+
+.month,
+.day,
+.content {
+    font-size: 3rem;
+    line-height: 1;
+}
+
+.date {
+    justify-self: flex-end;
+    display: grid;
+}
+
+.content {
+    justify-self: flex-start;
+    padding: 1rem 0;
+    position: relative;
+    width: 630px;
+    text-align: center;
+}
+
+.content::after {
+    content: '';
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    --s: 2rem;
+    height: .6rem;
+    background-image: radial-gradient(circle closest-side, #727272 98%, #0000),
+        linear-gradient(90deg, #727272 50%, #0000 0);
+    background-position: 0 0, calc(var(--s) / 2) 0;
+    background-size: var(--s) 100%, calc(2*var(--s)) 100%;
+}
+
+.day {
+    justify-self: flex-end;
+}
+
+.row:nth-child(3)>.date {
+    position: relative;
+}
+
+.row:nth-child(3)>.date::after {
+    position: absolute;
+    content: '';
+    width: 150px;
+    height: 150px;
+    top: -40%;
+    left: -25%;
+    border-radius: 35% 65% 52% 48% / 64% 43% 57% 36%;
+    background-color: transparent;
+    border: .6rem solid red;
+}
+
+
+.yellow-clip,
+.green-clip,
+.orange-clip,
+.blue-clip,
+.green-pen,
+.ordinary-pen {
+    position: absolute;
+}
+
+.yellow-clip {
+    background-image: url('../images/yellow-clip.png');
+    bottom: 4%;
+    left: -5%;
+    height: 140px;
+    width: 100px;
+    background-size: 100% 100%;
+    transform: rotate(-15deg);
+}
+
+.orange-clip {
+    background-image: url('../images/orange-clip.png');
+    bottom: -5%;
+    left: 1%;
+    height: 140px;
+    width: 100px;
+    background-size: 100% 100%;
+    transform: rotate(-70deg);
+}
+
+.green-clip {
+    background-image: url('../images/green-clip.png');
+    bottom: 1%;
+    left: 7%;
+    height: 140px;
+    width: 100px;
+    background-size: 100% 100%;
+    transform: rotate(-40deg);
+}
+
+.blue-clip {
+    background-image: url('../images/blue-clip.png');
+    bottom: -2%;
+    left: 18%;
+    height: 140px;
+    width: 100px;
+    background-size: 100% 100%;
+    transform: rotate(-60deg);
+}
+
+.green-pen {
+    background-image: url(../images/green-pen.png);
+    bottom: 2%;
+    right: 4%;
+    height: 220px;
+    width: 220px;
+    background-size: 100% 100%;
+    transform: rotate(-4deg);
+}
+
+.ordinary-pen {
+    background-image: url(../images/ordinary-pen.png);
+    bottom: -3%;
+    right: -5%;
+    height: 220px;
+    width: 220px;
+    background-size: 100% 100%;
+    transform: rotate(-15deg);
+}

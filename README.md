@@ -7,6 +7,8 @@ In addition, below are the icons used in these repository. I don't own any icons
 
 3. Some images and icons used in this repository are desigend by pngtree and authors, please consult with their respective authors before using any icon or image from this repository.
 
+4. Fonts used in this repository should not be used for commercial purpose, please consult their respective authors.
+
 
 [Pin](https://icons8.com/icon/45074/pin) icon by [Icons8](https://icons8.com)
 
@@ -36,3 +38,17 @@ In addition, below are the icons used in these repository. I don't own any icons
 
 
 [Sand icons created by Vitaly Gorbachev - Flaticon](https://www.flaticon.com/free-icons/sand "sand icons")
+
+[Idea icons created by Freepik - Flaticon](https://www.flaticon.com/free-icons/idea "idea icons")
+
+[Study icons created by CapVora - Flaticon](https://www.flaticon.com/free-icons/study "study icons")
+
+[Attachment icons created by Anggara - Flaticon](https://www.flaticon.com/free-icons/attachment "attachment icons")
+
+[Clip icons created by Vectors Market - Flaticon](https://www.flaticon.com/free-icons/clip "clip icons")
+
+[Attach icons created by Creaticca Creative Agency - Flaticon](https://www.flaticon.com/free-icons/attach "attach icons")
+
+[Clip icons created by Freepik - Flaticon](https://www.flaticon.com/free-icons/clip "clip icons") [Stabilo icons created by magnemizer - Flaticon](https://www.flaticon.com/free-icons/stabilo "stabilo icons")
+
+[Highlight icons created by Eucalyp - Flaticon](https://www.flaticon.com/free-icons/highlight "highlight icons")
