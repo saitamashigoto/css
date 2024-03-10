@@ -29,3 +29,10 @@ In addition, below are the icons used in these repository. I don't own any icons
 [Designed by brgfx / Freepik](https://www.freepik.com "cute blonde girl character")
 
 [png image from pngtree.com](https://pngtree.com/freepng/cartoon-girl-reading-a-book_4484691.html)
+
+[Image by Freepik](https://www.freepik.com/free-vector/hand-drawn-international-cat-day-background-with-cat-paws_28479652.htm#query=cat%20footprint&position=5&from_view=keyword&track=ais&uuid=a2b167b9-839c-44c1-9471-ad962c9f451a)
+
+[Image by brgfx](https://www.freepik.com/free-vector/cute-cat-kitten-box-with-adopt-me-text-box-cartoon-isolated_11253907.htm#fromView=search&page=1&position=12&uuid=b67bca34-3184-4c0b-a8f7-a5b44248f7e2) on Freepik
+
+
+[Sand icons created by Vitaly Gorbachev - Flaticon](https://www.flaticon.com/free-icons/sand "sand icons")

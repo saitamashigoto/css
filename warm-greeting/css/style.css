@@ -1,0 +1,97 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+}
+
+.nunito-bold {
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    display: grid;
+}
+
+.wrapper {
+    width: 60%;
+    height: 80%;
+    align-self: center;
+    justify-self: center;
+    background-image: url('../images/cat-footprint.jpg');
+    background-size: 100% 100%;
+    display: grid;
+}
+
+.container {
+    background-color: #faf4ea;
+    width: 90%;
+    height: 85%;
+    align-self: center;
+    justify-self: center;
+    position: relative;
+    padding: 2.5rem;
+}
+
+.description {
+    margin-top: 2rem;
+}
+
+.line {
+    padding: .1rem;
+    color: #62442f;
+    letter-spacing: .1rem;
+    line-height: 1.2;
+    font-size: .9rem;
+}
+
+.website {
+    display: block;
+    padding: .6rem 1rem;
+    background-color: transparent;
+    border: 1px solid #503522;
+    width: auto;
+    font-size: .9rem;
+    margin-top: 1rem;
+    color: #503522;
+    letter-spacing: .1rem;
+}
+
+h2 {
+    margin: 0;
+    font-size: 7rem;
+    color: #503522;
+    line-height: .8;
+}
+
+.litter-box {
+    background-image: url('../images/litter-box.png');
+    width: 350px;
+    height: 350px;
+    background-size: 100% 100%;
+    position: absolute;
+    top: 23%;
+    right: -3%;
+}
+
+.heart {
+    background-image: url('../images/heart.png');
+    width: 100px;
+    height: 100px;
+    background-size: 100% 100%;
+    position: absolute;
+    top: 20%;
+    right: 30%;
+    transform: rotate(-20deg);
+}
