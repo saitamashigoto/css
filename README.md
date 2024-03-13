@@ -52,3 +52,5 @@ In addition, below are the icons used in these repository. I don't own any icons
 [Clip icons created by Freepik - Flaticon](https://www.flaticon.com/free-icons/clip "clip icons") [Stabilo icons created by magnemizer - Flaticon](https://www.flaticon.com/free-icons/stabilo "stabilo icons")
 
 [Highlight icons created by Eucalyp - Flaticon](https://www.flaticon.com/free-icons/highlight "highlight icons")
+
+[著作者：pikisuperstar](https://jp.freepik.com/free-vector/hand-drawn-fruits-and-vegetables-stickers_16143931.htm#query=%E6%BC%AB%E7%94%BB%E9%87%8E%E8%8F%9Cpng&position=27&from_view=keyword&track=ais&uuid=8ec2c168-86fd-4872-b0f4-639b73671ec4)／出典：Freepik

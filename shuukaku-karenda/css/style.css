@@ -3,13 +3,46 @@
 }
 
 @font-face {
-  font-family: 'Tsunagi Gothic';
-  src: url('../fonts/TsunagiGothic.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
+    font-family: 'Tsunagi Gothic';
+    src: url('../fonts/TsunagiGothic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 }
 
 html {
     font-size: 16px;
     font-family: 'TsunagiGothic', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    scrollbar-gutter: stable;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    scrollbar-gutter: stable;
+}
+
+.top-right, .bottom-left {
+    background-image: url('../images/yasai.jpg');
+    position: absolute;
+    background-size: 100% 100%;
+}
+
+.top-right {
+    top: 0;
+    right: 0;
+    height: 300px;
+    width: 300px;
+}
+
+.bottom-left {
+    left: 0;
+    bottom: 0;
+    height: 300px;
+    width: 300px;
 }
